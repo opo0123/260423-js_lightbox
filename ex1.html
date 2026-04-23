@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>예제 1</title>
+    <link rel="stylesheet" href="css/ex1.css" />
+    <script src="js/ex1.js"></script>
+  </head>
+  <body>
+    <div class="gallery">
+      <img
+        class="pic"
+        src="https://picsum.photos/id/1015/400/300"
+        alt="이미지"
+        data-src="https://picsum.photos/id/1015/800/600"
+        data-title="첫번째 이미지"
+      />
+      <img
+        class="pic"
+        src="https://picsum.photos/id/1025/400/300"
+        alt="이미지"
+        data-src="https://picsum.photos/id/1025/800/600"
+        data-title="두번째 이미지"
+      />
+      <img
+        class="pic"
+        src="https://picsum.photos/id/1035/400/300"
+        alt="이미지"
+        data-src="https://picsum.photos/id/1035/800/600"
+        data-title="세번째 이미지"
+      />
+    </div>
+
+    <!-- light box -->
+    <div id="lightBox">
+      <img id="lightBox-img" />
+      <p id="lightBox-title"></p>
+    </div>
+  </body>
+</html>
